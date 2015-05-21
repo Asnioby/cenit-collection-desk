@@ -1,0 +1,19 @@
+{
+  "name": "Desk CENIT Integration",
+  "category": "Collection",
+  "description": "Desk CENIT Integration",
+  "pull_parameters": [
+    {
+      "label": "Desk URL",
+      "parameter": "On connection 'Desk Connection' template parameter 'desk_url'"
+    },
+    {
+      "label": "Desk Username",
+      "parameter": "On connection 'Desk Connection' template parameter 'desk_username'"
+    },
+    {
+      "label": "Desk Password",
+      "parameter": "On connection 'Desk Connection' template parameter 'desk_password'"
+    }
+  ]
+}

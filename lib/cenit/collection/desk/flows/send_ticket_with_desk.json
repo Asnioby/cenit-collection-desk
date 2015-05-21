@@ -1,0 +1,31 @@
+{
+  "name": "Send Ticket with Desk",
+  "active": true,
+  "discard_events": false,
+  "data_type_scope": "Event source",
+  "last_trigger_timestamps": "2015-04-23 19:01:35 UTC",
+  "event": {
+    "_reference": true,
+    "name": "Communication | Ticket on created_at"
+  },
+  "translator": {
+    "_reference": true,
+    "name": "Request with CENIT Integration"
+  },
+  "custom_data_type": {
+    "_reference": true,
+    "name": "Ticket",
+    "schema": {
+      "_reference": true,
+      "uri": "ticket.json",
+      "library": {
+        "_reference": true,
+        "name": "Communication"
+      }
+    }
+  },
+  "webhook": {
+    "_reference": true,
+    "name": "Desk | Create Ticket"
+  }
+}

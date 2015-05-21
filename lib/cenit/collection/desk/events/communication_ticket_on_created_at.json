@@ -1,0 +1,17 @@
+{
+  "name": "Communication | Ticket on created_at",
+  "_type": "Setup::Observer",
+  "triggers": "{\"created_at\":{\"0\":{\"o\":\"_not_null\",\"v\":[\"\",\"\",\"\"]}}}",
+  "data_type": {
+    "_reference": true,
+    "name": "Ticket",
+    "schema": {
+      "_reference": true,
+      "uri": "ticket.json",
+      "library": {
+        "_reference": true,
+        "name": "Communication"
+      }
+    }
+  }
+}

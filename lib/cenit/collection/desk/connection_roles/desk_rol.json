@@ -1,0 +1,15 @@
+{
+  "name": "Desk Rol",
+  "webhooks": [
+    {
+      "_reference": true,
+      "name": "Desk | Create Ticket"
+    }
+  ],
+  "connections": [
+    {
+      "_reference": true,
+      "name": "Desk Connection"
+    }
+  ]
+}

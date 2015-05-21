@@ -1,0 +1,6 @@
+{
+  "name": "Desk | Create Ticket",
+  "path": "create_ticket",
+  "purpose": "send",
+  "method": "post"
+}
