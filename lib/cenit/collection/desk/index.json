@@ -2,6 +2,8 @@
   "name": "Desk CENIT Integration",
   "category": "Collection",
   "description": "Desk CENIT Integration",
+  "shared_version": "1.0.0",
+  "data": {"name": "Desk CENIT Integration"},
   "pull_parameters": [
     {
       "label": "Desk URL",
