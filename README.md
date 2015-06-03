@@ -64,9 +64,9 @@ run `rake console`
 
 Configure your Cenithub Client API
 
+### Default Config
 
-```
-Default Config
+```Ruby
 config = {:push_url =>  'https://www.cenithub.com/api/v1/push',:user_key =>  'My User Key',:user_token => 'My User Token'}
 ```
 Show Hash Collection
